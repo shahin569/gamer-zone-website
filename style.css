@@ -53,14 +53,15 @@ nav{
 
 }
 
+
+.menu-items{
+    display: flex;
+    justify-content: end;
+}
 .nav-right li{
     list-style: none;
     font-size: 18px;
     padding: 10px;
-}
-.menu-items{
-    display: flex;
-    justify-content: end;
 }
 
 .social-icons-menu{
