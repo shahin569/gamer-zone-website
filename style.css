@@ -1,3 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
+
+/* global style starts here */
+
 body{
     margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+:root{
+    --main-color: #FF42A5;
+    --secondary-color: #8758F1;
+}
+
+
+/* navigation style starts here */
+
+nav{
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+.nav-container{
+    width: 1280px;
+    display:flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.nav-left{
+    width:50%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.nav-left img{
+    width: 50px;
+    height:auto;
+    object-fit: contain;
+    margin-right: 10px;
+
+}
+.nav-left p{
+    font-size: 20px;
+    font-weight: 700;
+}
+.nav-left p span{
+    color: var(--main-color);
+}
+
+.nav-right{
+    width:50%;
+
+}
+
+.nav-right li{
+    list-style: none;
+    font-size: 18px;
+    padding: 10px;
+}
+.menu-items{
+    display: flex;
+    justify-content: end;
+}
+
+.social-icons-menu{
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+}
+
+.fa-youtube{
+    color: #F61C0D;
+}
+.fa-tiktok{
+    color: #000000;
 }
