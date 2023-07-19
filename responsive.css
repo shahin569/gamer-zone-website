@@ -150,3 +150,8 @@ flex-direction: column;
 
 }
    /* bottom grid section css ends here  */
+
+
+   .footer-menu, .footer-menu-last {
+    flex-direction: column;
+}
