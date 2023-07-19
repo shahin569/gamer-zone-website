@@ -11,7 +11,7 @@
 
       /* nav responsive css starts here */
 
-    .nav-container{
+    .nav-container, .play-instantly-container{
     flex-direction: column;
     width: auto;
 
@@ -96,4 +96,39 @@
 
 
       /* gamer responsive css ends  */
-}
+
+
+      /* play instantly responsive css  */
+
+      .play-inst-left {
+        width: 100%;
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .play-inst-left p {
+        width: 70%;
+        float: none;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .play-inst-right {
+        width: 100%;
+    }
+
+    .play-inst-right .main-play-inst-img img {
+        width: 70%;
+        float: right;
+        margin: 0 30px;
+        text-align: center;
+    }
+
+    .secondary-image{
+        position: relative;
+        top: -100px;
+        left: 20px;
+    }
+    .secondary-image img{
+        width: 150px;
+   }
