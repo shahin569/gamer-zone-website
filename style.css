@@ -235,7 +235,7 @@ nav{
 
 /* gamer css ends here  */
 
-/* funny video section css starts here  */
+/* funny game section css starts here  */
 .funny-game-container{
     width: 1280px;
     margin: 0 auto;
@@ -248,29 +248,48 @@ nav{
 
 .hover-image-style {
 position: relative;
+overflow: hidden;
 }
 .hover-image-style .overlay-items {
     position: absolute;
-    top: 50%;
+    top: 105%;
     left: 50%;
     transform: translate(-50%, -50%);
-    display: none;
+    transition: 0.5s ease-in-out;
+
     }
 
-.hover-image-style .overlay-items:hover {
-display: block;
-}
+    .hover-image-style:hover .overlay-items {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
 
-.hover-image-style img{
-border: 2px solid transparent;
-border-radius: 20px;
-transition: .5s;
-background-color: #4EC5F7;
-positi
+    
+    }
+    .overlay-items i{
+        font-size: 25px;
+        color: var(--main-color);
+    }
+    .overlay-items span{
+        font-size: 25px;
+        color: #ffffff;
+    }
+
+
+    .hover-image-style img{
+        border: 2px solid transparent;
+        border-radius: 20px;
+        transition: .5s;
+
 
 }
 
 .hover-image-style img:hover{
+    border: 2px solid var(--main-color);
+    border-radius: 20px;
+    -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
+    filter: blur(5px);
     border: 2px solid var(--main-color);
     border-radius: 20px;
 
