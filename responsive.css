@@ -97,6 +97,11 @@
 
       /* gamer responsive css ends  */
 
+      /* funny game responsive */
+      .overlay-image-colum{
+flex-direction: column;
+width: auto;
+    }
 
       /* play instantly responsive css  */
 

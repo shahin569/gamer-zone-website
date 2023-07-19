@@ -237,18 +237,21 @@ nav{
 
 /* funny game section css starts here  */
 .funny-game-container{
-    width: 1280px;
-    margin: 0 auto;
+    /* width: 1280px;
+    margin: 0 auto; */
 }
 .overlay-image-colum{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     gap: 15px;
 }
 
 .hover-image-style {
-position: relative;
-overflow: hidden;
+    position: relative;
+    overflow: hidden;
 }
 .hover-image-style .overlay-items {
     position: absolute;
