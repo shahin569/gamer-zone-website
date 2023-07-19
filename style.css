@@ -5,11 +5,21 @@
 body{
     margin: 0;
     font-family: 'Work Sans', sans-serif;
+
 }
 
 :root{
     --main-color: #FF42A5;
     --secondary-color: #8758F1;
+}
+
+.btn-primary{
+    padding: 15px 40px;
+    font-size: 16px;
+    color: #ffffff;
+    border-radius: 50px;
+    border: none;
+    text-transform: uppercase;
 }
 
 
@@ -74,4 +84,88 @@ nav{
 }
 .fa-tiktok{
     color: #000000;
+}
+
+/* baner section starts here */
+
+.banner-section{
+    background-image: url(images/Group14.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1280px;
+    margin: 0 auto;
+    padding: 50px 0;
+
+}
+
+.banner-left{
+    width: 50%;
+
+}
+
+.banner-left h2{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+}
+
+.banner-left h1{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 95px;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.banner-features{
+    margin-bottom: 20px;
+}
+
+.icon-style{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.icon-style img{
+    margin-right: 10px;
+}
+.icon-style p{
+    margin: 5px 0;
+}
+
+.banner-button{
+    display: flex;
+    justify-content: start;
+    gap: 15px;
+}
+
+
+.banner-first-btn{
+    background-color: var(--main-color);
+}
+
+.banner-second-btn{
+    background-color: #4EC5F7;
+}
+
+
+.banner-right{
+    width: 50%;
+}
+.banner-right img{
+    width: 100%;
 }
