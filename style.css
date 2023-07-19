@@ -320,3 +320,55 @@ positi
 
 
     /* play instantly section css endss here  */
+
+
+    /* games container section css starts here  */
+
+    .bottom-grid-container{
+        max-width: 1280px;
+        margin: 0 auto;
+    }
+    
+    .bottom-grid{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+    
+    .bottom-grid li{
+        list-style: none;
+    }
+    .bottom-grid li a{
+        padding: 3px;
+        border: 2px solid #fff;
+        border-radius: 50px;
+    }
+    .bottom-grid li a:hover{
+        border: 2px solid var(--main-color);
+        list-style: none;
+        border-radius: 50px;
+        transition: 0.5s;
+    }
+    
+    .bottom-grid li:hover span{
+        color: var(--main-color);
+        transition: 0.2s;
+    }
+    
+    
+    .bottom-grid a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        text-decoration: none;
+    }
+    .bottom-grid a span{
+        color: #0B0223;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    /* games container section css ends here  */
