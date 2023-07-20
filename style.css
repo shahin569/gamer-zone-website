@@ -5,6 +5,7 @@
 body{
     margin: 0;
     font-family: 'Work Sans', sans-serif;
+    box-sizing: border-box;
 
 }
 h3{
@@ -202,7 +203,7 @@ nav{
     width: 30%;
 }
 
-.gamer-right h3{
+.gradiant-color{
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -235,68 +236,106 @@ nav{
 
 /* gamer css ends here  */
 
-/* funny game section css starts here  */
-.funny-game-container{
-    /* width: 1280px;
-    margin: 0 auto; */
-}
-.overlay-image-colum{
+/* Online game section css starts here  */
+
+
+.online-game-container{
     width: 1280px;
     margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 15px;
+    padding: 50px 0;
+
+
 }
 
-.hover-image-style {
+.online-game-text-container{
+    text-align: center;
+    margin: 0;
+}
+
+.online-game-image-container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0;
+
+}
+
+.game-image-text-column{
+
+}
+
+.image-div {
+    width: 300px;
     position: relative;
     overflow: hidden;
 }
-.hover-image-style .overlay-items {
+
+.image-div img{
+    width: 295px;
+    border-radius: 20px;
+
+
+}
+
+
+.span-class i{
+    font-size: 35px;
+    color: var(--main-color);
+    padding-bottom: 10px;
+}
+.span-class span{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.span-class{
     position: absolute;
-    top: 105%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    transition: 0.5s ease-in-out;
-
-    }
-
-    .hover-image-style:hover .overlay-items {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-
-    
-    }
-    .overlay-items i{
-        font-size: 25px;
-        color: var(--main-color);
-    }
-    .overlay-items span{
-        font-size: 25px;
-        color: #ffffff;
-    }
-
-
-    .hover-image-style img{
-        border: 2px solid transparent;
-        border-radius: 20px;
-        transition: .5s;
-
+    bottom: 0;
+    right: 100%;
+    display: block;
+    background-color: #0000004b;
+    width: 295px;
+    height: 100%;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    place-content: center;
+    transition: .3s;   
+    border-radius: 20px;
+    border: 2px solid var(--main-color);
+    box-sizing: border-box; 
 
 }
 
-.hover-image-style img:hover{
-    border: 2px solid var(--main-color);
+.game-image-overlay:hover .span-class{
+    position: absolute;
+    bottom: 0;
+    right: 5px;
+    display: block;
+    background-color: #0000004b;
+    width: 295px;
+    height: 100%;
     border-radius: 20px;
-    -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
-    filter: blur(5px);
-    border: 2px solid var(--main-color);
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    place-content: center;
     border-radius: 20px;
+    border: 2px solid var(--main-color);
+    box-sizing: border-box;
 
 }
+
+
+
+/* Online game section css ends here  */
+
+
 
 /* play instantly section css starts here  */
 
@@ -462,3 +501,5 @@ nav{
     }
 
     /* footer section css ends here  */
+
+

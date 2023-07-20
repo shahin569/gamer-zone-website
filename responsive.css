@@ -97,11 +97,21 @@
 
       /* gamer responsive css ends  */
 
-      /* funny game responsive */
-      .overlay-image-colum{
-flex-direction: column;
-width: auto;
+      /* online game responsive css Starts */
+
+      .online-game-container{
+        width: auto;
     }
+      .online-game-image-container{
+flex-direction: column;
+    
+    }
+    .text-div{
+        text-align: center;
+    }
+
+
+          /* online game responsive css ends */
 
       /* play instantly responsive css  */
 
