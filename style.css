@@ -414,38 +414,35 @@ nav{
 
     }
     
+    .bottom-grid {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
     .bottom-grid li{
         list-style: none;
-    }
-    .bottom-grid li a{
-        padding: 3px;
-        border: 2px solid #fff;
-        border-radius: 50px;
-    }
-    .bottom-grid li a:hover{
-        border: 2px solid var(--main-color);
-        list-style: none;
-        border-radius: 50px;
-        transition: 0.5s;
-    }
-    
-    .bottom-grid li:hover span{
-        color: var(--main-color);
-        transition: 0.2s;
-    }
-    
-    
-    .bottom-grid a{
+        width: 200px;
+        height: 60px;
         display: flex;
+        justify-content: start;
         align-items: center;
-        justify-content: center;
-        gap: 10px;
-        text-decoration: none;
+        border: 1px solid;
+        border-radius: 50px;
+        padding: 5px;
     }
-    .bottom-grid a span{
-        color: #0B0223;
-        font-size: 20px;
-        font-weight: 400;
+
+    .bottom-grid li:hover{
+
+        border: 1px solid var(--main-color);
+
+    }
+
+    .bottom-grid li img{
+    margin-right: 15px;
+
+
     }
     /* games container section css ends here  */
 
